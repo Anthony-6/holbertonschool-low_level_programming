@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- *This function display a text, and return to 0
+ *
+ *main function display a text and return and the value of return is (0)
  *
  */
 int main(void)
