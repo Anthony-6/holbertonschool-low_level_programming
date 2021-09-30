@@ -3,7 +3,7 @@
  *main - return to 0
  *
  *puts - print
- *return - go to 0
+ *return - value is set to 0
  */
 int main(void)
 {
