@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
- *main function display a text and return and the value of return is (0)
+ *main - return to 0
+ *
+ *puts - print
  *
  */
 int main(void)
