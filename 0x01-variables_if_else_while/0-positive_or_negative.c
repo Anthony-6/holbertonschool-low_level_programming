@@ -6,6 +6,11 @@
 * main - print a random number to N everytime
 * Return : Always 0 (Sucess)
 */
+
+/*
+* main - print a random number to N everytime and say if it's
+* positive, negative or equal to zero
+*/
 int main(void)
 {
 int n;
