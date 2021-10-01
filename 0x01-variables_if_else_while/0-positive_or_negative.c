@@ -3,7 +3,7 @@
 #include <time.h>
 
 /*
-* main - give a random number to N everytime
+* main - print a random number to N everytime
 * Return : Always 0 (Sucess)
 */
 int main(void)
