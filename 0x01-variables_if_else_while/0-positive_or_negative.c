@@ -1,6 +1,7 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
+
 /*
 * main - give a random number to N everytime
 * Return : Always 0 (Sucess)
