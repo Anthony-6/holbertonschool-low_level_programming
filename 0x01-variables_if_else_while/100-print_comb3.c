@@ -7,8 +7,8 @@
 */
 int main()
 {
-char n1;
-char n2;
+int n1;
+int n2;
 
 for(n1 = '0'; n1 <= '9'; n1++)
 {
