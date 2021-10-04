@@ -5,7 +5,7 @@
 * print number from 0 to 99 but without repetition
 * Returne - always sucess (0)
 */
-int main()
+int main(void)
 
 {
 int n1;
@@ -15,7 +15,7 @@ for (n1 = '0'; n1 <= '9'; n1++)
 {
 for (n2 = '0'; n2 <= '9'; n2++)
 {
-if (n1<n2)
+if (n1 < n2)
 {
 putchar(n1);
 putchar(n2);
