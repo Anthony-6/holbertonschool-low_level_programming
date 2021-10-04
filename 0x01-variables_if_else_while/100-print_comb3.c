@@ -3,7 +3,7 @@
 /**
 * main - entry point
 * print number from 0 to 99 but without repetition
-* Returne - always sucess (0)
+* Return - always sucess (0)
 */
 int main(void)
 
