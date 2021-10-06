@@ -1,7 +1,7 @@
 #include <ctype.h>
 
 /**
- * _islower - check if a character is lower than an other one
+ * _islower - work fine
  *
  * Return: _islower always sucess (0)
  *
