@@ -1,13 +1,15 @@
 #include "main.h"
 
 /**
- * print_alphabet - but ten time
- * Return: no
+ * print_alphabet_x10 - print alphabet ten time
+ *
+ * Return :0
  */
 void print_alphabet_x10(void)
 {
 	char h;
 	int n = 0;
+	
 	while (n < 10)
 	{
 		for (h = 'a'; h <= 'z'; h++)
