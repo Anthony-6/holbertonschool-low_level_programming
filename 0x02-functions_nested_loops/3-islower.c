@@ -1,11 +1,11 @@
 #include <ctype.h>
 
 /**
- * _islower - work fine
+ * _islower - check character
  * @c: integer value
  * Return: always sucess(0)
  */
-int _islower(int (c))
+int _islower(int c)
 
 {
 	if (islower(c))
