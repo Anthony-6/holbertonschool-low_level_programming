@@ -3,8 +3,8 @@
 /**
  * _islower - check if a character is lower than an other one
  *
- * Return - _islower always sucess (0)
- * c is the 
+ * Return: _islower always sucess (0)
+ * (c) is the
  */
 int _islower(int (c))
 
