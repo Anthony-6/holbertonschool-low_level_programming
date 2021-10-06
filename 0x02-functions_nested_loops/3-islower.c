@@ -2,8 +2,8 @@
 
 /**
  * _islower - work fine
- * Return: _islower always sucess (0)
- * @c: integer values
+ * @c: integer value
+ * Return: always sucess(0)
  */
 int _islower(int (c))
 
