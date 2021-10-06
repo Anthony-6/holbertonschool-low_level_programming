@@ -4,7 +4,7 @@
  * _islower - check if a character is lower than an other one
  *
  * Return: _islower always sucess (0)
- * @c is the value for _islower
+ * @c: is the value for _islower
  */
 int _islower(int (c))
 
