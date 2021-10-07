@@ -1,0 +1,7 @@
+#include <inttypes.h>
+
+/**
+ * imaxabs - compute absolute value of an integer
+ *
+ */
+intmax_t imaxabs(intmax_t j);
