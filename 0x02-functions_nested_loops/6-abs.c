@@ -1,7 +1,7 @@
 #include <inttypes.h>
 
 /**
- * intabs - compute absolute value of an integer
+ * _abs - compute absolute value of an integer
  * @n: value to check
  * Return: return to n
  */
