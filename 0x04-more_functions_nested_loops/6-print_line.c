@@ -3,6 +3,7 @@
 /**
  * print_line - print number of line given by 6-main.c
  * Return: no
+ * @n: value of int
  */
 void print_line(int n)
 {
