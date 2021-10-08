@@ -18,7 +18,7 @@ else
 	while (h <= n)
 	{
 		if (h > 1)
-			for (k = 0; k < h -1; k++)
+			for (k = 0; k < h - 1; k++)
 		{
 			_putchar (' ');
 		}
