@@ -1,11 +1,17 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * swap_int - swap value of two int
+ * @a: one int
+ * @b: second int
+ * Return: no
  */
-int main(void)
+void swap_int(int *a, int *b)
 {
-    return (0);
+	int swapme;
+
+	swapme = *a;
+	*a = *b;
+	*b = swapme;
 }
