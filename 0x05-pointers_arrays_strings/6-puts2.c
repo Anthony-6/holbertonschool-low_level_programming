@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
  * puts2 - print base 10
@@ -7,9 +8,9 @@
  */
 void puts2(char *str)
 {
-	int c = 0;
+	int c, n = strlen(str);
 
-for (c = 0; str[c] != '\0'; c += 2)
+for (c = 0; c < n ; c += 2)
 {
 	_putchar (str[c]);
 }
