@@ -2,7 +2,7 @@
 
 /**
  * string_toupper - make every character UPPER
- * @l: integer value
+ * l: int value
  * @str: value pointed
  * Return: str
  */
@@ -10,8 +10,8 @@ char *string_toupper(char *str)
 {
 	int l;
 
-	l = 0;
-	while ( str[l] != '\0')
+	while (str[l] != '\0')
+		l = 0;
 	{
 		if (str[l] >= 'a' && str[l] <= 'z')
 		{
