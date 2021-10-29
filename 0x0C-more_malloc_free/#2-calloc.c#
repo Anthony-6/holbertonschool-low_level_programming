@@ -3,11 +3,10 @@
 #include <string.h>
 
 /**
- * _memset - fill memory with constant value
- * @s: pointer
+ * _memset - here to fill memory
+ * @s: pointer to a given character
  * @b: char
  * @n: unsigned int
- * Return: to the pointer
  */
 char *_memset(char *s, char b, unsigned int n)
 {
