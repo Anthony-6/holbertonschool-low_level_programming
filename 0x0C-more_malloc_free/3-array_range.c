@@ -5,6 +5,7 @@
  * array_range - store value of min and max
  * @min: min value
  * @max: max value
+ * Return: NULL or pointer
  */
 int *array_range(int min, int max)
 {
@@ -18,7 +19,9 @@ int *array_range(int min, int max)
 	{
 		return (NULL);
 	}
-        for (count = 0; min <= max; count++)
-        ptr[count] = min++;
-        return (ptr);
+	for (count = 0; min <= max; count++)
+	{
+		ptr[count] = min++;
+	}
+	return (ptr);
 }
