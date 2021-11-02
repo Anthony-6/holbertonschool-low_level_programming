@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * print - print file that was compilated with
+ * main - print file that was compilated with
  * Return: sucess
  */
 int main(void)
