@@ -1,7 +1,7 @@
 #include "variadic_functions.h"
 #include <stdio.h>
 /**
- * print_string - print string with commas betwin
+ * print_strings - print string with commas betwin
  * @separator: point to defined commas
  * @n: number of string
  */
@@ -10,6 +10,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	char *str;
 	unsigned int i;
 	va_list pointer;
+
 	va_start(pointer, n);
 
 	for (i = 0; i < n; i++)
