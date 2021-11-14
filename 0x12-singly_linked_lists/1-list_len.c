@@ -1,7 +1,7 @@
 #include "lists.h"
 #include <stdio.h>
 /**
- * list_lent - main function that return number of element of list_t list
+ * list_len - main function that return number of element of list_t list
  * @h: list value
  * count: incremante the loop
  * Return: count value
