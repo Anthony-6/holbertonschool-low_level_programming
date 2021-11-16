@@ -14,6 +14,11 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	newnode->n = n;
 	newnode->next = NULL;
 
+    if (newnode == NULL)
+{
+    free (newnode);
+    return (newnode);
+}
 	if (*head == NULL)
 	{
 		*head = newnode;
@@ -30,10 +35,6 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 		}
 		lastnode->next = newnode;
 	}
-    if (newnode == NULL)
-{
-    free (newnode);
-    return (newnode);
-}
+
 	return (newnode);
 }
