@@ -3,19 +3,21 @@
  * sum_listint - give the sum of the linked list
  * @head: pointer to the list
  * count: count the list
+ * tmp: store all value
  * Return: count
  */
 int sum_listint(listint_t *head)
 {
+	listint_t *tmp;
 	int count = 0;
 
-	if (head == NULL)
-		return (0);
-	while (head->next)
+	if (!head)
+		return (0)
+			tmp = head;
+	while (tmp)
 	{
-		count += head->n;
-		head = head->next;
+		count += tmp->n;
+		tmp = tmp->next;
 	}
-	count = head->n;
 	return (count);
 }
