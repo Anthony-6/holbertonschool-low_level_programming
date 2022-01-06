@@ -1,7 +1,7 @@
 #include "lists.h"
 /**
  * delete_dnodeint_at_index - delete node at a given position
- * @h: point to the list
+ * @head: point to the list
  * @index: position given by the main.c
  * delete_node: point the node to delete
  * counter: iterate the loop and pass through the list
@@ -11,7 +11,7 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
 	dlistint_t *delete_node;
 	unsigned int counter = 0;
-	
+
 	if (head == NULL || *head == NULL)
 	{
 		return (-1);
@@ -43,5 +43,5 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 		}
 	}
 	free(delete_node);
-	return(1);
+	return (1);
 }
