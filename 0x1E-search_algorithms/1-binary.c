@@ -14,6 +14,10 @@ int binary_search(int *array, size_t size, int value)
 	unsigned long int i;
 
 
+	if (array == NULL)
+		return (-1);
+	if (size == 0)
+		return (-1);
 	while (lower_side <= higher_side)
 	{
 		int mid_array = (lower_side + higher_side) / 2;
